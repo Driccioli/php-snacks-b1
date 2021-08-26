@@ -29,17 +29,17 @@ $db = [
     ]
 ];
 
-for($i=0; $i< count($db["teachers"]; $i++)){
+for($i=0; $i< count($db["teachers"]); $i++){
     echo "<h1 style='background-color:grey'>";
-    print_r( $db[teachers][$i][name]);
-    print_r($db[teachers][$i][lastname]);
+    print_r( $db["teachers"][$i]["name"]. " ");
+    print_r($db["teachers"][$i]["lastname"]);
     echo"</h1>";
 };
 
-for($i=0; $i< count($db["pm"]; $i++)){
+for($i=0; $i< count($db["pm"]); $i++){
     echo "<h1 style='background-color:green'>";
-    print_r( $db[pm][$i][name]);
-    print_r( $db[pm][$i][lastname]);
+    print_r( $db["pm"][$i]["name"]. " ");
+    print_r( $db["pm"][$i]["lastname"]);
     echo"</h1>";
 };
 
